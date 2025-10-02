@@ -1,8 +1,12 @@
+
 const name1 = "Ramesh";
 const name2 = "Suresh";
 
-const marks1 = 30;
+const marks1 = 90;
 const marks2 = 50;
+
+
+// Method-1
 
 /*if(marks1 > marks2){
     console.log(name1,"has highest marks =", marks1);
@@ -11,7 +15,9 @@ else{
     console.log(name2,"has highest Marks =", marks2);
 }*/
 
-let winnerName;
+//Method-2 
+
+/*let winnerName;
 let winnerMarks;
 if(marks1 > marks2){
     winnerName = name1;
@@ -22,6 +28,44 @@ else{
     winnerMarks =marks2;
 }
 console.log(winnerName,"has highest marks=", winnerMarks);
+*/
 
+
+//Method-3(best method)
+
+let winnerName = name1;
+let winnerMarks = marks1;
+if(marks2 > marks1){
+    winnerName = name2;
+    winnerMarks = marks2;
+}
+console.log(winnerName,"has highest marks=", winnerMarks);
+
+// Q1
+/* To check the greater number */
+let a = 80;
+let b = 30;
+let c = a;
+let d = b;
+if(b > a){
+    d = b;
+}
+console.log(c, "is a greater number than ", d);
+
+
+
+//-----------------Ternary Operator---------------------------//
+
+//Q.1 check the even or odd number
+let num = 11;
+let check = (num % 2 == 0 ) ? "Even Number" : "Odd Number ";
+console.log(check);
+
+//Q.2 check the number is positive or negative
+let n = 0;
+let positiveOrNegative = n == 0  ? "Neutral" : n > 0 ? " Positive Number":"Negative Number";
+console.log(positiveOrNegative);
+
+//print 1-7 in weekdays
 
 
