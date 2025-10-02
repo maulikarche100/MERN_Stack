@@ -66,6 +66,3 @@ let n = 0;
 let positiveOrNegative = n == 0  ? "Neutral" : n > 0 ? " Positive Number":"Negative Number";
 console.log(positiveOrNegative);
 
-//print 1-7 in weekdays
-
-

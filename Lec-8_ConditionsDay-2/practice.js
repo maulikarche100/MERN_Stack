@@ -29,7 +29,7 @@ let positiveOrNegative = n == 0  ? "Neutral" : n > 0 ? " Positive Number":"Negat
 console.log(positiveOrNegative);
 
 
-// Q.3 calculate highest marks using Ternary Operator 
+// Q.5 calculate highest marks using Ternary Operator 
 const marks3 = 98;
 const marks4 = 60;
 const name3 = "Mauli";
@@ -37,3 +37,15 @@ const name4 = "jay";
 const highestScorereName = marks3 > marks4 ? name3 : name4;
 const highMarks = marks3 > marks4 ? marks3 : marks4;
 console.log(highestScorereName,"has highest marks is:",highMarks);
+
+// Q6 print 1-7 into  weekdays
+const dayNumber = 6;
+const weekday = dayNumber === 1 ? "Monday" :
+                dayNumber === 2 ? "Tuesday" :
+                dayNumber === 3 ? "Wednesday" :
+                dayNumber === 4 ? "Thursday" :
+                dayNumber === 5 ? "Friday" :
+                dayNumber === 6 ? "Saturday" :
+                dayNumber === 7 ? "Sunday" :
+                "Invalid day"; 
+console.log(weekday);
