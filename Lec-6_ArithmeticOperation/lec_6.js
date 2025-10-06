@@ -52,6 +52,16 @@ let l = 20;
 console.log("Remainder of the given number =", k % l);
 
 
+//weird behavior of of arithmetic operators
+//ex
+
+const num = 123;
+const str = "abc";
+result = num * 2;
+console.log(result);
+result = str * 2;
+console.log(result);// output: NaN(Not a Number)
+
 
 
 
