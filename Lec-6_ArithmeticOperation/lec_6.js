@@ -63,6 +63,25 @@ result = str * 2;
 console.log(result);// output: NaN(Not a Number)
 
 
+//Increment operators(++)
+let m = 6;
+let n = 8;
+console.log("m =",m , "& n =",n);
+m++;
+n--;
+console.log(m);
+console.log(n);
+
+
+//
+
+
+//--------------New topic------------
+//Comments
+//mainly comments are used describe to the code.
+
+
+
 
 
 
