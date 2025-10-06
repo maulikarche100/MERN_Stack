@@ -44,6 +44,18 @@ let j = 9**3;
 console.log("power of the number =", j);
 
 
+//Remainder of Number(%);
+//ex
+
+let k = 40;
+let l = 20;
+console.log("Remainder of the given number =", k % l);
+
+
+
+
+
+
 
 
 
