@@ -73,7 +73,31 @@ console.log(m);
 console.log(n);
 
 
-//
+//assignment operator
+let q = 5;
+let p = 6;
+q += 4;
+console.log("q =", q);
+
+p -= 4;
+console.log("p =", p);
+
+
+q *= 4;
+console.log("q =", q);
+
+q **= 5;
+console.log("q =", q);
+
+p /= 4;
+console.log("p =", p);
+
+q %= 10;
+console.log("q =", q);
+
+
+//comparison operator
+//(==, !=, >, >=, <, <=,)
 
 
 //--------------New topic------------
