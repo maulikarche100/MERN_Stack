@@ -43,8 +43,10 @@ console.log(a); //output is 5
 const PI = 3.14;
 console.log(PI);
 
+//---------------------------------------------------------------------------------
 
-//Datatypes in JS
+
+//Primitive Datatypes in JS
 //1. Number:
 //ex
 let pen= 3;
@@ -73,7 +75,30 @@ console.log(isFollow);
 
 //5 . Null
 //ex
+let d = null;
+console.log(x);
 
+// 6. BigInt
+//ex
+let e = BigInt("123");
+console.log(e);
+
+//Symbol
+//ex
+let f = Symbol("Hello!");
+console.log(f);
+
+//-----------------------------------------------------------------
+
+
+
+//Non-primitive Datatypes
+// 1. objects
+// 2.Array
+// 3.function
+
+
+//---->>>>>>>>>>They are learn in next part ------------->>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
