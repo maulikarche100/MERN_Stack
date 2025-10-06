@@ -8,3 +8,9 @@
     console.log(a);
 }
 
+
+let ballPen= 2;
+let price = 30;
+console.log(ballPen); 
+console.log(price); 
+
