@@ -36,5 +36,14 @@ let h = 45;
 let i = 2;
 console.log("Division of two numbers = ", + h/i);
 
+//Power of a number(2^3 = 8)
+
+//ex
+
+let j = 9**3;
+console.log("power of the number =", j);
+
+
+
 
 
