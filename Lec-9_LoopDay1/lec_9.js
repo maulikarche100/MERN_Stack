@@ -22,3 +22,11 @@ console.log("hii!!");
 */
 
 /* To solve these issues, we can use Loops */
+
+//while loop
+let count = 10;
+while(count > 0){
+    console.log("hii");
+    count--;
+}
+
