@@ -14,6 +14,11 @@ console.log("hii!!");
 console.log("hii!!");
 
 
-/*Issues in repeating the code
-
+/* Issues in repeating code 
+- too much work for developer
+- chances of error
+- unable to count the number of repetition
+- too much work to update "Hi" to "Hii"
 */
+
+/* To solve these issues, we can use Loops */
