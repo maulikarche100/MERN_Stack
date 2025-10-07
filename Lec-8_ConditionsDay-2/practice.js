@@ -49,3 +49,15 @@ const weekday = dayNumber === 1 ? "Monday" :
                 dayNumber === 7 ? "Sunday" :
                 "Invalid day"; 
 console.log(weekday);
+
+
+
+//Q.7 check the vowels..
+let alphabet = 4;
+const vowels =  alphabet === 1 ? "'a' is a vowel":
+                alphabet === 2 ? "'e' is a vowel":
+                alphabet === 3 ? "'i' is a vowel":
+                alphabet === 4 ? "'o' is a vowel":
+                alphabet === 5 ? "'u' is a vowel":
+                "invalid vowel";
+console.log(vowels);

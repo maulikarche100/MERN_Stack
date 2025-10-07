@@ -69,7 +69,9 @@ let check = (num % 2 == 0 ) ? "Even Number" : "Odd Number ";
 console.log(check);
 
 //Q.2 check the number is positive or negative
-let n = 0;
+let n = 1;
 let positiveOrNegative = n == 0  ? "Neutral" : n > 0 ? " Positive Number":"Negative Number";
 console.log(positiveOrNegative);
+
+
 
