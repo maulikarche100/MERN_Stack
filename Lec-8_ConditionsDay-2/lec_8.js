@@ -75,3 +75,45 @@ console.log(positiveOrNegative);
 
 
 
+//------------------Grading system by Switch Cases--------------
+
+
+const grade = "B";
+switch(grade){
+    case "A":
+        console.log(grade,"Excellent Grade keep it up!!!");
+        break;
+    case "B":
+        console.log(grade,"Good keep it up!!!");
+        break;
+    case "C":
+        console.log(grade,"Fair Need Practice");
+        break;
+    case "D":
+        console.log(grade,"Not Good Need Practice");
+        break;
+    default:
+        console.log("Invalid grade");
+}
+
+
+
+
+const marks = 90;
+switch(true){
+    case marks > 90:
+        console.log(marks,"Excellent Grade keep it up!!!");
+        break;
+    case marks > 80 && marks <= 90:
+        console.log(marks,"Good keep it up!!!");
+        break;
+    case marks > 70 && marks <= 80:
+        console.log(marks,"Fair Need Practice");
+        break;
+    case marks > 60 && marks <= 70:
+        console.log(marks,"Not Good Need Practice");
+        break;
+    default:
+        console.log("Invalid grade");
+}
+

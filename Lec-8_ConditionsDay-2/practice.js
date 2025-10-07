@@ -86,3 +86,24 @@ const highestMarks = marks > marks1 && marks > marks2 ? "Mauli has highest marks
 
                     console.log(highestMarks);
 
+
+// ex.
+//                     Student Grade Classification
+// You are given marks of a student as input. Display a correct message based on the following rules:
+
+// for marks above 90, print "Excellent".
+// for marks above 80 and less than equal to 90, print "Good"
+// for marks above 70 and less than equal to 80, print "Fair".
+// for marks above 60 and less than equal to 70, print "Meets Expectations".
+// for marks below 60, print "Below Expectations".
+
+
+const score = 81;
+const score1 = score > 90 ? "Excellent":
+                score > 80 && score <= 90 ? "Good":
+                score > 70 && score <= 80 ? "Fair":
+                score > 60 && score <= 70 ? "Meets Expectations":
+                "Below Expectations";
+console.log(score1)
+                
+
