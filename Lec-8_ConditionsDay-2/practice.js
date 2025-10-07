@@ -61,3 +61,28 @@ const vowels =  alphabet === 1 ? "'a' is a vowel":
                 alphabet === 5 ? "'u' is a vowel":
                 "invalid vowel";
 console.log(vowels);
+
+
+//print greatest among three numbers
+let x = 120;
+let y = 90;
+let z = 40;
+
+const largestNum = x >= y && x >= z ? "x is largest number" : y >= x && y >= z ? "y is largest number" : "z is largest number";
+console.log(largestNum);
+
+
+
+//print the name and score of highest scoring student
+const name = "mauli";
+const name1 = "jay";
+const name2 = "ketan";
+const marks = 94;
+const marks1 = 90;
+const marks2 = 60;
+const highestMarks = marks > marks1 && marks > marks2 ? "Mauli has highest marks" : 
+                    marks1 > marks && marks1 > marks2 ? "jay has highest marks":
+                    "ketan has highest marks";
+
+                    console.log(highestMarks);
+
