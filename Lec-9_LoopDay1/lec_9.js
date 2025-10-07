@@ -30,3 +30,10 @@ while(count > 0){
     count--;
 }
 
+let count1 = 5;
+while(count1 != 0){
+    console.log("hii");
+    console.log("hii");
+    count--;
+}
+
