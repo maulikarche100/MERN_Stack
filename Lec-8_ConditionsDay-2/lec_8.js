@@ -3,21 +3,21 @@ const name1 = "Ramesh";
 const name2 = "Suresh";
 
 const marks1 = 90;
-const marks2 = 50;
+const marks2 = 80;
 
 
-// Method-1
+// // Method-1
 
-/*if(marks1 > marks2){
-    console.log(name1,"has highest marks =", marks1);
-}
-else{
-    console.log(name2,"has highest Marks =", marks2);
-}*/
+// if(marks1 > marks2){
+//     console.log(name1,"has highest marks =", marks1);
+// }
+// else{
+//     console.log(name2,"has highest Marks =", marks2);
+// }
 
 //Method-2 
-
-/*let winnerName;
+/*
+let winnerName;
 let winnerMarks;
 if(marks1 > marks2){
     winnerName = name1;
@@ -28,8 +28,8 @@ else{
     winnerMarks =marks2;
 }
 console.log(winnerName,"has highest marks=", winnerMarks);
-*/
 
+*/
 
 //Method-3(best method)
 
@@ -52,12 +52,19 @@ if(b > a){
 }
 console.log(c, "is a greater number than ", d);
 
+let e = 90;
+let f = 80;
+if(e > f){
+    d = b;
+}
+console.log(e, "is a greater number than ", f);
+
 
 
 //-----------------Ternary Operator---------------------------//
 
 //Q.1 check the even or odd number
-let num = 11;
+let num = 10;
 let check = (num % 2 == 0 ) ? "Even Number" : "Odd Number ";
 console.log(check);
 
