@@ -73,6 +73,15 @@ let n = 1;
 let positiveOrNegative = n == 0  ? "Neutral" : n > 0 ? " Positive Number":"Negative Number";
 console.log(positiveOrNegative);
 
+// Q.3 
+const grade1 = "o"
+const checkGrade = grade1 == "A" ? "Excellent":
+                    grade1 == "B" ? "Good":
+                    grade1 == "C" ? "Need Practice":
+                    grade1 == "D" ? "Fair":
+                    "Invalid Grade";
+                    console.log(checkGrade);
+
 
 
 //------------------Grading system by Switch Cases--------------
