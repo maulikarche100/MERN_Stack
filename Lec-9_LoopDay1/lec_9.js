@@ -30,3 +30,17 @@ while(count > 0){
     count--;
 }
 
+// let i = 5;
+// while(i!=0){
+//     console.log("param");
+//     i--;
+// }
+
+
+// print the value from 1-10
+let i = 1;
+while(i<=10){
+    console.log(i);
+    i++;
+}
+
