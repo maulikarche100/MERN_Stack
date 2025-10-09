@@ -75,6 +75,10 @@ do{
 }while(b<=20);
 
 let q = 1;
+do{
+    console.log("q=" ,q )
+    q++;
+}while(q<=5);
 
 
 
