@@ -46,6 +46,7 @@ while(count > 0){
 
 
 //print all even numbers up to 25
+console.log("all even numbers up to 25");
 let n = 0;
 while(n <=  25){
     if(n % 2 == 0)
@@ -54,10 +55,13 @@ n++;
 }
 
 //print countdown from 10 to 1
+console.log("Countdown from 10 to 1:");
 let countdown = 10;
 while(countdown >=1){
     console.log(countdown);
     countdown-=1;
 }
+
+
 
 
