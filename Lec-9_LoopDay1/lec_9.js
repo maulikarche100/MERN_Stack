@@ -77,3 +77,17 @@ for (let i = 10; i >= 1; i--) {
 for(let i = 0; i<10; i++){
     console.log("hii");
 }
+
+
+//print counting from 1 to 10
+console.log("Counting from 1 to 10:");
+for(let i = 1; i<=10; i++){
+    console.log(i);
+}
+
+//print multiples of 3 ( 3, 6, 9,....,48)
+console.log(" multiples of 3 ( 3, 6, 9,....,48)");
+for(let i = 3 ; i <= 50; i+=3){
+    console.log(i);
+}
+
