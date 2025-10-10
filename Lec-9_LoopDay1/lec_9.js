@@ -65,3 +65,15 @@ while(countdown >=1){
 
 
 
+//---------->>>>>>>>>>FOR LOOP------------>>>>>>>>>>>>>>>
+
+
+console.log("Countdown from 10 to 1 by for loop:");
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+
+for(let i = 0; i<10; i++){
+    console.log("hii");
+}
