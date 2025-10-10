@@ -38,9 +38,19 @@ while(count > 0){
 
 
 // print the value from 1-10
-let i = 1;
-while(i<=10){
-    console.log(i);
-    i++;
+// let i = 1;
+// while(i<=10){
+//     console.log(i);
+//     i++;
+// }
+
+
+//print all even numbers up to 25
+let n = 0;
+while(n <=  25){
+    if(n % 2 == 0)
+    console.log(n);
+n++;
 }
+
 

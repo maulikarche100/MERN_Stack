@@ -66,6 +66,14 @@ let sum9 = 0;
     }
     console.log(count);
 
+    //ex)
+    //print all even numbers up to 25
+let num = 1;
+while(num <= 12){
+    console.log(num * 2);
+    num++;
+}//bad method i will improve
+
 //--------------->>>>>>>>>>>>>> do-While ---------->>>>>>>>>
 //ex)
 let b = 1; 
@@ -79,6 +87,9 @@ do{
     console.log("q=" ,q )
     q++;
 }while(q<=5);
+
+
+
 
 
 
