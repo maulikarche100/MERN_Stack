@@ -7,7 +7,7 @@ for(let i=1; i<=N; i++){
 console.log(factorial);
 
 //check the prime number
-const n = 9;
+const n = 13;
 let primeNumber= 0;
 for(let i=1; i<=n; i++){
     if(n%i==0)
