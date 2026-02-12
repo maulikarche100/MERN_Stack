@@ -17,3 +17,16 @@ if(p == q || q == r || p == r){
 }else{
     console.log("these are not equal value")
 }
+
+//ex 2 Marking System Using Else-If conditions:
+let marks =90;
+if(marks >= 80){
+    console.log("First class with distinction");
+}else if(marks >= 60 && marks <= 79){
+    console.log("first class");
+}else if(marks >= 40  && marks <= 69){
+    console.log("second class");
+}
+else{
+    console.log("Fail");
+}
